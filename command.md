@@ -1,7 +1,7 @@
 git init (.git file 생성)
 git config --list
 
-git clone [git링크] // 저장소 내 파일 복사
+git clone [git링크] [파일저장경로] // 저장소 내 파일 복사
 
 git remote add [git링크] // 저장소 연결
 
