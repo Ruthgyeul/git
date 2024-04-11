@@ -1,4 +1,4 @@
 test 02 
 
 
-a, b = map(int, input().split())
+집 가고 싶어요
