@@ -7,6 +7,16 @@ git remote add [git링크] // 저장소 연결
 
 git branch [새로 생성 브랜치 명] [기존 파일 복사할 부모 브랜치] // git branch 생성
 
+git branch -d [브랜치 명] // 브랜치 삭제
+
+git checkout [브랜치 명] // 특정 브랜치로 위치? 변경
+
+git rebase [브랜치 명] // 재정렬? 명령어 재확인 필요
+
+git tag [태그명] [브랜치 명] // 브랜치에 태그 붙이기
+
+git tag // 태그 리스트 보기
+
 git pull // 저장소 내 변동 된 파일 등 적용
 git push // 본인 수정한 코드 저장소에 저장 (업로드)
 
