@@ -9,6 +9,8 @@ git branch [새로 생성 브랜치 명] [기존 파일 복사할 부모 브랜�
 
 git branch -d [브랜치 명] // 브랜치 삭제
 
+git branch -m [브랜치 명] [새로 이름 바꿀 브랜치 명] // 기존 브랜치 이름 변경?
+
 git checkout [브랜치 명] // 특정 브랜치로 위치? 변경
 
 git rebase [브랜치 명] // 재정렬? 명령어 재확인 필요
@@ -28,3 +30,4 @@ git commit -m "text" -m "text" // 추적 파일 커밋하기 한 개 문단 취�
 git log // git 내역 로그 출력
 git status // 현재 git 현황 체크 및 트랙킹 (커밋이나 변동사항등 저장소와 비교)
 
+git mv [file] [newFilePathOrName] // 리눅스 mv 마냥 파일 옮기기 
