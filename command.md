@@ -20,7 +20,8 @@ git tag // 태그 리스트 보기
 git pull // 저장소 내 변동 된 파일 등 적용
 git push // 본인 수정한 코드 저장소에 저장 (업로드)
 
-git add [fileName] // 파일 추적
+git add -i // 파일 스테이징? 옵션
+git add [fileName] // 파일 스테이징 (커밋 전 준비 사항?)
 git commit -a // 커밋 메시지 작성용 편집기 실행
 git commit -m "text" -m "text" // 추적 파일 커밋하기 한 개 문단 취급
 
