@@ -1,5 +1,5 @@
 # git
-Git Command Practice
+Git CLI Practice
 
 # Commands
 - git init (.git file 생성)
