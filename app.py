@@ -1,3 +1,8 @@
-a = input("Enter Something: ")
+def sayFiveTimes(word):
+    return word*5
 
-print("Hello World!", a)
+word = input("Enter Something: ")
+result = sayFiveTimes(word)
+
+print("Hello World!")
+print(result)
