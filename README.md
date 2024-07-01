@@ -25,7 +25,7 @@ Git Command Practice
 - git commit -a // 커밋 메시지 작성용 편집기 실행
 - git commit -m "text" -m "text" // 추적 파일 커밋하기 한 개 문단 취급
 ---
-- git log // git 내역 로그 출력
+- git log // git 커밋 내역 등 로그 출력
 - git status // 현재 git 현황 체크 및 트랙킹 (커밋이나 변동사항등 저장소와 비교)
 ---
 - git mv [file] [newFilePathOrName] // 리눅스 mv 마냥 파일 옮기기 
