@@ -1,7 +1,7 @@
 def sayFiveTimes(word):
     return word*5
 
-word = input("Enter Something: ")
+word = "TeemoTheRaccoon"
 result = sayFiveTimes(word)
 
 print("Hello World!")
