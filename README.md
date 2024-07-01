@@ -5,6 +5,7 @@ Git Command Practice
 - git init (.git file 생성)
 - git config --list
 - git status // 현재 git 현황 체크 및 트랙킹 (커밋이나 변동사항등 저장소와 비교)
+- git [명령어] --help // 명령어 사용 방법 및 리스트 확인
 ---
 - git clone [git링크] [파일저장경로] // 저장소 내 파일 복사
 - git remote add origin [git링크] // 저장소 연결
@@ -23,8 +24,8 @@ Git Command Practice
 ---
 - git add -i // 파일 스테이징 옵션
 - git add [fileName] // 파일 스테이징 (커밋 전 준비 사항 / 스테이징)
-- git commit -a // 커밋 메시지 작성용 편집기 실행
-- git commit -m "text" -m "text" // 추적 파일 커밋하기 한 개 문단 취급
+- git commit -a // 스테이징 건너 뛰고 수정된 파일 전부 커밋 (all)
+- git commit -m "text" -m "text" // 스테이징된 파일 커밋하기 ""당 한 개 문단 취급 (message)
 ---
 - git log // git 커밋 내역 로그 출력
 - git log -p // git 커밋 내역 변동 사항 출력 
