@@ -31,6 +31,7 @@ Git Command Practice
 - git diff // 이전 커밋 소스코드와의 차이점 확인
 - git diff [CommitCode]..[CommitCode] // 둘의 커밋 소스코스 차이점 확인하기
 ---
-
+- git reset [CommitCode] --[soft/hard/등] // 해당 커밋으로 파일 리셋 (해당 커밋 이후는 숨김 처리 -> 정보는 남아있어 복구 가능)
+- git revert [CommitCode] // 뭐야 얘도 알려줘요 이게 뭔데
 ---
 - git mv [file] [newFilePathOrName] // 리눅스 mv 마냥 파일 옮기기 
