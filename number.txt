@@ -1,1 +1,2 @@
 No. 3
+yolo task=detect mode=train model=./YOLO/yolov10n.pt data=./data.yaml epochs=25 imgsz=1280 batch=16 lr0=0.001 save_period=10 optimizer=SGD project=./result name=tld
