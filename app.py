@@ -5,3 +5,6 @@ word = input("Enter Something: ")
 result = sayFiveTimes(word)
 
 print(result)
+
+
+print(1234)
